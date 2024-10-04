@@ -1,0 +1,118 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+html {
+  background-color: #f7f7f7;
+  background-image:url("./assets/7276431.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-name {
+  font-size: 2.3rem;
+  color: rgb(17, 144, 0);
+  margin-bottom: 16px;
+}
+
+.App {
+  background-image: url("./assets/weather.jfif");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  width: 600px;
+  min-height: 440px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-search {
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border: 2px solid rgb(204, 204, 204);
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #e5eef0;
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  padding: 12px 40px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: black;
+}
+
+.city-search:focus {
+  width: 100%;
+}
+
+.city-name {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+.icon-temp {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.deg {
+  font-size: 1.3rem;
+  vertical-align: super;
+}
+
+.des-wind {
+  font-weight: 500;
+  color: white;
+}
+
+.error-message {
+  display: block;
+  text-align: center;
+  color: #d32f2f;
+  font-size: 24px;
+  margin-top: auto;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Loader>div {
+  margin: 0 auto;
+}
+
+.weather-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
